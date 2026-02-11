@@ -270,7 +270,7 @@
 .div5blog1 {
     width: 1130px;
     height: 250px;
-    background-color: aqua;
+
     margin: 0px auto;
     margin-top: 60px;
     display: flex;
@@ -306,6 +306,18 @@
     font-size: 16px;
     margin-left: 65px;
     margin-top: 23px;
+}
+
+.div6 {
+    width: 1170px;
+    height: 574px;
+    background-color: aqua;
+    margin: 120px auto;
+}
+
+.div6textup {
+    text-align: center;
+
 }
 
 @media(max-width:511px) {
@@ -517,12 +529,15 @@
         height: 100%;
 
     }
-    .div5blog2rost{
+
+    .div5blog2rost {
         margin-left: 50px;
     }
-    .div5blog2chap{
+
+    .div5blog2chap {
         margin-right: 40px;
     }
+
     .div5blog2 h2 {
         font-family: Work Sans;
         font-weight: 500;
@@ -549,6 +564,12 @@
         margin-top: 12px;
         padding-left: 35px;
         padding-right: 10px;
+    }
+
+    .div6 {
+        width: 375px;
+        height: 413px;
+
     }
 
 
