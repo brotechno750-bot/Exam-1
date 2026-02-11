@@ -183,53 +183,85 @@
 .div3text {
     width: 570px;
     height: 460px;
-   
+
 }
-.div3icon1{
+
+.div3icon1 {
     width: 570px;
     height: 530px;
-   
+
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
-.div3icon2{
+
+.div3icon2 {
     width: 270px;
-height: 250px;
-background-color: white;
-box-shadow: 10px 10px 10px #0000001A;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 20px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 10px 10px 10px #0000001A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
-.div3icon2 h1{
+
+.div3icon2 h1 {
     font-family: Work Sans;
-font-weight: 700;
-font-size: 48px;
+    font-weight: 700;
+    font-size: 48px;
 }
-.div3icon2 p{
+
+.div3icon2 p {
     font-family: Work Sans;
-font-weight: 500;
-font-size: 20px;
-color: #7B7B7B;
+    font-weight: 500;
+    font-size: 20px;
+    color: #7B7B7B;
 }
-.div4{
+
+.div4 {
     width: 1170px;
-height: 555px;
-background-color: aqua;
-margin: 120px auto;
-text-align: center;
+    height: 555px;
+ 
+    margin: 120px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
 }
+
+.div4tah {
+    width: 1170px;
+    height: 350px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.div4blog {
+    width: 270px;
+    height: 350px;
+    
+    box-shadow: 10px 10px 10px #0000001A;
+}
+
+.div4blog img {
+    width: 270px;
+    height: 250px;
+    margin-bottom: 24px;
+}
+
 @media(max-width:511px) {
 
     * {
         margin: 0px;
     }
-    body{
+
+    body {
         width: 375px;
     }
+
     .dont {
         display: none;
     }
@@ -376,16 +408,44 @@ text-align: center;
         gap: 0px;
         margin: 0px;
     }
-    .div3icon1{
+
+    .div3icon1 {
         width: 343px;
         height: 1075px;
         margin: 0;
     }
-    .div3icon2{
+
+    .div3icon2 {
         width: 343px;
         height: 250px;
         gap: 0px;
     }
-    .div4{}
+
+    .div4 {
+        width: 375px;
+        height: 503px;
+    }
+
+    .div4tah {
+        width: 100%;
+        height: 100%;
+        overflow: scroll;
+    
+        display: flex;
+        
+        gap: 20px;
+        
+    }
+
+    .div4blog {
+        min-width: 73%;
+        height:100%;
+        
+        box-shadow: 10px 10px 10px #0000001A;
+        margin-right: 2px;
+        
+    
+        
+    }
 
 }
