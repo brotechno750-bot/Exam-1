@@ -320,6 +320,84 @@
 
 }
 
+.div6blog1 {
+    width: 1170px;
+    height: 294px;
+    background-color: gold;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.div6blog2 {
+    width: 570px;
+    height: 294px;
+    background-color: lightgreen;
+    box-shadow: 10px 10px 10px #0000001A;
+
+}
+
+.div6blogup1 {
+    display: flex;
+}
+
+.div6blogup1 h3 {
+    font-family: Work Sans;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 20px;
+
+}
+
+.div6p {
+    margin-left: 20px;
+}
+
+.div6p p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FF5300;
+    margin-top: 25px;
+
+}
+
+.div6komp1 {
+    width: 164px;
+    height: 164px;
+    margin-left: 120px;
+    margin-top: 25px;
+}
+
+.div6blogtah {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 25px;
+}
+
+.div6blogtah img {
+    width: 80px;
+    height: 80px;
+}
+
+.div6blogtah1 h3 {
+    font-family: Work Sans;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.div6blogtah1 p {
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.div6komp2 {
+    display: none;
+}
+
 @media(max-width:511px) {
 
     * {
@@ -569,6 +647,69 @@
     .div6 {
         width: 375px;
         height: 413px;
+
+    }
+
+    .div6blog1 {
+        width: 100%;
+        height: 220px;
+        overflow: scroll;
+        background-color: gold;
+        
+        
+    }
+
+    .div6p p {
+        margin: 0;
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 18px;
+        margin-bottom: 8px;
+    }
+
+    .div6p h3 {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 18px;
+    }
+
+    .div6blog2 {
+        min-width: 70%;
+        height: 100%;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .div6komp2 {
+        display: block;
+
+    }
+
+    .div6blogup1 img {
+        width: 80px;
+        height: 80px;
+        margin: 0;
+        margin-left: 25px;
+        padding-right: 18px;
+        margin-top: 18px;
+    }
+
+    .div6blogtah img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .div6blogtah1 h3 {
+        font-family: Work Sans;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .div6blogtah1 p {
+        font-family: Work Sans;
+        font-weight: 400;
+        font-size: 12.8px;
 
     }
 
