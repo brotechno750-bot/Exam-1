@@ -79,7 +79,8 @@
     margin-top: 11px;
     margin-bottom: 50px;
 }
-.colorp2{
+
+.colorp2 {
     margin-bottom: 20px;
 }
 
@@ -105,7 +106,7 @@
 .div2 {
     width: 1242px;
     height: 695px;
-    background-color: Gray;
+    background-color: white;
     margin: 120px 0px;
     margin-left: 63px;
 }
@@ -114,7 +115,7 @@
     width: 1242px;
     height: 435px;
     display: flex;
-    background-color: aqua;
+
 }
 
 .div2bolo img {
@@ -125,12 +126,46 @@
 .div2bolotext {
     width: 570px;
     height: 435px;
-    background-color: gold;
+  
 }
-.h2color{
+
+.h2color {
     font-family: Work Sans;
-font-weight: 600;
-font-size: 39.06px;
+    font-weight: 600;
+    font-size: 39.06px;
+
+}
+
+.div2tah {
+    width: 1170px;
+    height: 200px;
+  
+    margin: 0px auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div2tahicon {
+    width: 270px;
+    height: 200px;
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 10px #0000001A;
+    text-align: center;
+}
+
+.div2tahicon img {
+    width: 70px;
+    height: 70px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.div2tahicon p {
+    text-align: center;
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 16px;
 
 }
 
@@ -212,26 +247,63 @@ font-size: 39.06px;
 
     .div2 {
         width: 372px;
-        height: 1561px;
+        height: 1661px;
         margin: 0px;
         margin: 50px auto;
     }
 
     .div2bolo {
         width: 372px;
-        height: 636px;
+        height: 686px;
         flex-direction: column;
+        text-align: center;
     }
 
     .div2bolo img {
         width: 372px;
         height: 192px;
+        margin-bottom: 50PX;
     }
 
     .div2bolotext {
         width: 323px;
-        height: 394px;
+        height: 430px;
         margin: auto;
+        margin-top: 14px;
+    }
+
+    .h2color {
+        font-family: Work Sans;
+        font-weight: 500;
+        font-size: 25px;
+        margin-bottom: 18px;
+    }
+
+    .colorp {
+        margin: 0px;
+        margin-bottom: 18px;
+    }
+
+    .colorp {
+        margin-bottom: 18px;
+    }
+
+    .div2tah {
+        width: 343px;
+        height: 875px;
+        flex-direction: column;
+    }
+
+    .div2tahicon {
+        width: 343px;
+        height: 200px;
+    }
+
+    .div2tahicon p {
+        font-family: Work Sans;
+        font-weight: 500;
+        font-size: 20px;
+
     }
 
 
