@@ -17,7 +17,7 @@
     align-items: center;
     gap: 77px;
     background-color: white;
-    
+
 
 }
 
@@ -79,6 +79,9 @@
     margin-top: 11px;
     margin-bottom: 50px;
 }
+.colorp2{
+    margin-bottom: 20px;
+}
 
 .buttoncolor {
     width: 150px;
@@ -99,10 +102,42 @@
 
 }
 
-@media(max-width: 511px) {
+.div2 {
+    width: 1242px;
+    height: 695px;
+    background-color: Gray;
+    margin: 120px 0px;
+    margin-left: 63px;
+}
+
+.div2bolo {
+    width: 1242px;
+    height: 435px;
+    display: flex;
+    background-color: aqua;
+}
+
+.div2bolo img {
+    width: 672px;
+    height: 352px;
+}
+
+.div2bolotext {
+    width: 570px;
+    height: 435px;
+    background-color: gold;
+}
+.h2color{
+    font-family: Work Sans;
+font-weight: 600;
+font-size: 39.06px;
+
+}
+
+@media(max-width:511px) {
 
     * {
-        margin: 0;
+        margin: 0px;
     }
 
     .dont {
@@ -167,15 +202,37 @@
         margin-top: 16px;
         margin-bottom: 25px;
     }
-    .div1picright{
+
+    .div1picright {
         width: 335px;
-       height: 225px;
-       margin-bottom: 50px;
+        height: 225px;
+        margin-bottom: 50px;
 
     }
 
+    .div2 {
+        width: 372px;
+        height: 1561px;
+        margin: 0px;
+        margin: 50px auto;
+    }
 
+    .div2bolo {
+        width: 372px;
+        height: 636px;
+        flex-direction: column;
+    }
 
+    .div2bolo img {
+        width: 372px;
+        height: 192px;
+    }
+
+    .div2bolotext {
+        width: 323px;
+        height: 394px;
+        margin: auto;
+    }
 
 
 }
