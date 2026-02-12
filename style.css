@@ -777,7 +777,7 @@
     }
 
     body {
-        width: 375px;
+        width: 380px;
     }
 
     .dont {
@@ -785,7 +785,7 @@
     }
 
     .div1 {
-        width: 375px;
+        width: 390px;
         height: 733px;
     }
 
@@ -816,7 +816,7 @@
     }
 
     .div1pic1 {
-        width: 375px;
+        width: 390px;
         height: 683px;
         flex-direction: column-reverse;
     }
@@ -911,7 +911,7 @@
     }
 
     .div3 {
-        width: 375px;
+        width: 390px;
         height: 1622px;
         display: flex;
         flex-direction: column;
@@ -963,7 +963,7 @@
     }
 
     .div5 {
-        width: 375px;
+        width: 390px;
         height: 470px;
     }
 
@@ -1203,9 +1203,9 @@
     }
 
     .div10 {
-        width: 375px;
+        width: 390px;
         height: 1200px;
-        margin-left: 8px;
+        
     }
 
     .div10bloxs {
@@ -1256,20 +1256,24 @@
         margin: 0;
         margin-top: 50px;
     }
-
+    .div10box4but{
+        width: 360px;
+        margin-left: -2px;
+    }
     .div10icon2 {
         width: 30px;
         height: 27px;
     }
 
     .div10end {
-        width: 375px;
+        width: 390px;
         height: 60px;
         
         gap: 0;
         
     }
     .div10email{
+        
      display: flex;
      align-items: center;
      justify-content: center;
