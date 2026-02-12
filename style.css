@@ -311,7 +311,7 @@
 .div6 {
     width: 1170px;
     height: 574px;
-    background-color: aqua;
+
     margin: 120px auto;
 }
 
@@ -323,7 +323,7 @@
 .div6blog1 {
     width: 1170px;
     height: 294px;
-    background-color: gold;
+
     margin-top: 60px;
     display: flex;
     justify-content: space-between;
@@ -333,7 +333,7 @@
 .div6blog2 {
     width: 570px;
     height: 294px;
-    background-color: lightgreen;
+    background-color: white;
     box-shadow: 10px 10px 10px #0000001A;
 
 }
@@ -367,6 +367,7 @@
     height: 164px;
     margin-left: 120px;
     margin-top: 25px;
+    padding-right: 25px;
 }
 
 .div6blogtah {
@@ -396,6 +397,16 @@
 
 .div6komp2 {
     display: none;
+}
+
+.div7 {
+    width: 1263px;
+    height: 961px;
+    background-color: aqua;
+    margin: 0px auto;
+}
+.div7textbolo{
+    text-align: center;
 }
 
 @media(max-width:511px) {
@@ -654,9 +665,9 @@
         width: 100%;
         height: 220px;
         overflow: scroll;
-        background-color: gold;
-        
-        
+
+
+
     }
 
     .div6p p {
@@ -713,5 +724,9 @@
 
     }
 
+    .div7{
+        width: 375px;
+        height: 2034px;
+    }
 
 }
