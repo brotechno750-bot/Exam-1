@@ -402,11 +402,151 @@
 .div7 {
     width: 1263px;
     height: 961px;
-    background-color: aqua;
+
     margin: 0px auto;
 }
-.div7textbolo{
+
+.div7textbolo {
     text-align: center;
+}
+
+.div7blog1 {
+    width: 1170px;
+    height: 230px;
+    margin: 0px auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div7blog2 {
+    width: 370px;
+    height: 230px;
+  
+    box-shadow: 10px 10px 10px #0000001A;
+}
+
+.div7blog2text {
+    display: flex;
+    gap: 18px;
+    margin-top: 19px;
+    margin-left: 18px;
+}
+
+.div7blog2text img {
+    width: 75px;
+    height: 75px;
+}
+
+.div7email {}
+
+.div7email p {
+    font-family: Work Sans;
+    font-weight: 500;
+    font-size: 25px;
+    color: #FF5300;
+    margin-bottom: 11px;
+}
+
+.div7email h3 {
+    font-family: Work Sans;
+    font-weight: 600;
+    font-size: 31.25px;
+
+}
+
+.div7email2 {
+    margin-left: 18px;
+    margin-top: 45px;
+}
+
+.div7email2 p,
+.div7email2 span {
+    font-family: Work Sans;
+    font-weight: 500;
+    font-size: 20px;
+    color: #7B7B7B;
+
+}
+
+.div7email2 p {
+    margin-left: 16px;
+    margin-bottom: 10px;
+}
+
+.div7email2 span {
+    margin-left: 18px;
+    color: #FF5300;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.div7Messeg {
+    width: 670px;
+    height: 466px;
+    margin: 0px auto;
+    margin-top: 46px;
+    margin-bottom: 18px;
+}
+
+.div7Messeg h2 {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.div7tel {
+    display: none;
+}
+
+.div7nom1 {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 18px;
+}
+
+.div7nom2 {
+    width: 312px;
+    height: 60px;
+    padding-left: 12px;
+    color: #7B7B7B;
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    box-shadow: 10px 10px 10px #0000001A;
+
+}
+
+.div7sms {
+    width: 652px;
+    height: 145px;
+    max-width: 650px;
+    max-height: 145px;
+    min-width: 650px;
+    min-height: 145px;
+    padding-top: 18px;
+    padding-left: 18px;
+    border: none;
+    margin-top: 11px;
+    color: #7B7B7B;
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 16px;
+    box-shadow: 10px 10px 10px #0000001A;
+}
+
+.div7Messeg button {
+    width: 670px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF5300;
+    color: white;
+    font-family: Work Sans;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 12px;
 }
 
 @media(max-width:511px) {
@@ -724,9 +864,80 @@
 
     }
 
-    .div7{
+    .div7 {
         width: 375px;
         height: 2034px;
+    }
+
+    .div7blog1 {
+        width: 375px;
+        height: 722px;
+        flex-direction: column;
+    }
+
+    .div7blog2 {
+        width: 355px;
+        height: 224px;
+    }
+
+    .div7Messeg {
+        width: 343px;
+        height: 680px;
+    }
+
+    .div7tel {
+        display: block;
+        text-align: center;
+        margin: 0px;
+
+
+    }
+
+    .div7span {
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    .div7span2 {
+        margin-top: 18px;
+    }
+
+    .div7nom1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div7nom2 {
+        width: 310px;
+        height: 60px;
+    }
+
+    .div7sms {
+        width: 305px;
+        height: 163px;
+        max-width: 305px;
+        max-height: 163px;
+        min-width: 305px;
+        min-height: 163px;
+        padding-top: 18px;
+        padding-left: 18px;
+        border: none;
+        margin-top: 11px;
+        color: #7B7B7B;
+        font-family: Work Sans;
+        font-weight: 400;
+        font-size: 16px;
+        box-shadow: 10px 10px 10px #0000001A;
+        margin-left: 10px;
+
+    }
+    .div7Messeg button {
+        width: 190px;
+        height: 50px;
+        margin-top: 18px;
+        margin-left: 10px;
+
     }
 
 }
