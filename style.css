@@ -593,6 +593,7 @@
     height: 419px;
     margin: auto;
     background-color: #373737;
+    
 }
 
 .div10allbox {
@@ -1087,12 +1088,14 @@
     .div7 {
         width: 375px;
         height: 1602px;
+        margin: 0px auto;
     }
 
     .div7blog1 {
         width: 375px;
         height: 722px;
         flex-direction: column;
+        margin: auto;
     }
 
     .div7blog2 {
@@ -1103,6 +1106,7 @@
     .div7Messeg {
         width: 343px;
         height: 680px;
+        
     }
 
     .div7tel {
@@ -1201,6 +1205,7 @@
     .div10 {
         width: 375px;
         height: 1200px;
+        margin-left: 8px;
     }
 
     .div10bloxs {
@@ -1259,6 +1264,8 @@
 
     .div10end {
         width: 375px;
+        height: 60px;
+        
         gap: 0;
         
     }
@@ -1286,6 +1293,7 @@
     .div11{
         width: 375px;
         height: 800px;
+        margin-top: 100px;
     }
 
 
